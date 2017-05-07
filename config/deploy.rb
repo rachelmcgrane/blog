@@ -11,7 +11,7 @@ require './config/slack'
 set :wp_user, "rachel" # The admin username
 set :wp_email, "rm1390@gmail.com" # The admin email address
 set :wp_sitename, "Rachel McGrane" # The site title
-set :wp_localurl, "http://localhost" # Your local environment URL
+set :wp_localurl, "http://192.168.33.10" # Your local environment URL
 
 ############################################
 # Setup project
