@@ -3,9 +3,9 @@
 ############################################
 
 set :stage, :production
-set :stage_url, "http://www.example.com"
-server "XXX.XXX.XX.XXX", user: "SSHUSER", roles: %w{web app db}
-set :deploy_to, "/deploy/to/path"
+set :stage_url, "http://rachelmcgrane.com"
+server "208.113.217.180", user: "SSHUSER", roles: %w{web app db}
+set :deploy_to, "/home/rach56/rachelmcgrane.com"
 
 ############################################
 # Setup Git
