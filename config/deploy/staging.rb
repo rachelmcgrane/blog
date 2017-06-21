@@ -4,7 +4,7 @@
 
 set :stage, :staging
 set :stage_url, "http://staging.rachelmcgrane.com"
-server "208.113.217.180", user: "SSHUSER", roles: %w{web app db}
+server "208.113.217.180", user: "rach56", roles: %w{web app db}
 set :deploy_to, "/home/rach56/staging.rachelmcgrane.com"
 
 ############################################
@@ -26,4 +26,4 @@ set :branch, "development"
 #}
 
 #specify a specific temp dir if user is jailed to home
-#set :tmp_dir, "/path/to/custom/tmp"
+set :tmp_dir, "/home/rach56/staging.rachelmcgrane.com/tmp"
